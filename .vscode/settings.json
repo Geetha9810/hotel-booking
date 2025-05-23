@@ -1,0 +1,5 @@
+{
+    "git.enabled": false,
+    "git.terminalGitEditor": false,
+    "git.blame.editorDecoration.enabled": true
+}
