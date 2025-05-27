@@ -51,7 +51,7 @@ const AddRoom = () => {
         ))}
       </div>
 
-      <div className="w-full flex amx-sm:flex-col sm:gap-4 mt-4">
+      <div className="w-full flex max-sm:flex-col sm:gap-4 mt-4">
         <div className="flex-1 max-w-48">
           <p className="text-gray-800 mt-4"> Room Type</p>
           <select
@@ -95,12 +95,12 @@ const AddRoom = () => {
                   ...inputs,
                   amenities: {
                     ...inputs.amenities,
-                    [amenity]: !inputs.amenities[amenity],
-                  },
+                    [amenity]: !inputs.amenities[amenity]
+                  }
                 })
               }
             />
-            <label htmlFor={`amenities${index + 1}`}>{amenity}</label>
+            <label htmlFor={`amenities${index + 1}`}>       {amenity}</label>
           </div>
         ))}
       </div>

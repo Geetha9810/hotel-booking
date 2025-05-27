@@ -35,7 +35,7 @@ const MyBookings = () => {
                 <p className="font-playfair text-2xl">
                   {booking.hotel.name}
                   <span className="font-inter text-sm">
-                    ({booking.room.roomType})
+                      ({booking.room.roomType})
                   </span>
                 </p>
                 <div className="flex items-center gap-1 text-sm text-gray-500">

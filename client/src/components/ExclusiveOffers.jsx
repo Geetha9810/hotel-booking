@@ -36,7 +36,7 @@ const ExclusiveOffers = () => {
               <p className="text-2xl font-medium font-playfair">{item.title}</p>
               <p>{item.description}</p>
               <p className="text-xs text-white/70 mt-3">
-                Expires{item.expires}
+                Expires{item.expiryDate}
               </p>
             </div>
 

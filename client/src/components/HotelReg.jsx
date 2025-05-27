@@ -25,6 +25,7 @@ const HotelReg = () => {
               Hotel Name
             </label>
             <input
+              id = 'name'
               type="text"
               placeholder="Type here"
               className="border border-gray-200 rounded w-full px-3 py-2.5 mt-1 outline-indigo-500 font-light"
@@ -37,6 +38,7 @@ const HotelReg = () => {
               Phone
             </label>
             <input
+              id = 'contact'
               type="text"
               placeholder="Type here"
               className="border border-gray-200 rounded w-full px-3 py-2.5 mt-1 outline-indigo-500 font-light"
@@ -49,6 +51,7 @@ const HotelReg = () => {
               Address
             </label>
             <input
+              id = 'address'
               type="text"
               placeholder="Type here"
               className="border border-gray-200 rounded w-full px-3 py-2.5 mt-1 outline-indigo-500 font-light"

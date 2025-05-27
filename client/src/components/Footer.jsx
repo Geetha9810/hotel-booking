@@ -29,7 +29,7 @@ const Footer = () => {
               className="w-6"
             />
             {/* Twitter */}
-            <img src={assets.twitterIcon} alt="twitter-icon" className="w-6" />
+            <img src={assets.twitterIcon}     alt="twitter-icon" className="w-6" />
             {/* LinkedIn */}
             <img
               src={assets.linkendinIcon}
